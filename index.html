@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ashley ❤️ Jeanelle | Season 1 Episode 3</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         FALLING PETALS
+    ====================================================== -->
+
+    <div id="petals-container"></div>
+
+
+    <!-- =====================================================
+         BACKGROUND MUSIC
+    ====================================================== -->
+
+    <audio id="bgMusic" loop>
+
+        <source src="music/music.mp3" type="audio/mpeg">
+
+    </audio>
+
+
+    <!-- MUSIC BUTTON -->
+
+    <button id="musicToggle" class="music-button" aria-label="Music">
+
+        🎵
+
+    </button>
+
+
+    <!-- =====================================================
+         SCENE 1 — NETFLIX INTRO
+    ====================================================== -->
+
+    <section id="introScene" class="scene active">
+
+        <div class="intro-wrapper">
+
+            <div class="netflix-logo">
+
+                N
+
+            </div>
+
+            <p class="netflix-text">
+
+                A NETFLIX LOVE STORY
+
+            </p>
+
+            <div class="intro-line"></div>
+
+            <p class="presented">
+
+                PRESENTED BY
+
+            </p>
+
+            <h2>
+
+                Ashley Reyes
+                <span>❤️</span>
+                Jeanelle Batalla
+
+            </h2>
+
+            <p class="episode-label">
+
+                SEASON 1 • EPISODE 3
+
+            </p>
+
+            <h1 class="intro-title">
+
+                THREE MONTHS,
+                <br>
+                ONE LOVE
+
+            </h1>
+
+            <button
+                class="next-btn"
+                data-next="heroScene">
+
+                Begin Episode ❤️
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SCENE 2 — HERO / OUR JOURNEY
+    ====================================================== -->
+
+    <section id="heroScene" class="scene">
+
+        <img
+            src="images/cover.jpg"
+            class="hero-bg"
+            alt="Ashley and Jeanelle">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="badge">
+
+                SEASON 1 • EPISODE 3
+
+            </span>
+
+            <h1>
+
+                THREE MONTHS,
+                <br>
+                ONE LOVE
+
+            </h1>
+
+            <h2>
+
+                Ashley ❤️ Jeanelle
+
+            </h2>
+
+            <p class="date">
+
+                June 7, 2026 — September 7, 2026
+
+            </p>
+
+            <p class="hero-description">
+
+                Three months of laughter,
+                memories, little adventures,
+                and choosing each other every day.
+
+            </p>
+
+
+            <!-- RELATIONSHIP TIMER -->
+
+            <div class="mini-timer">
+
+                <span>Together for</span>
+
+                <div id="relationshipTimer">
+
+                    Loading...
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="next-btn"
+                data-next="journeyScene">
+
+                Continue ❤️
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SCENE 3 — OUR JOURNEY
+    ====================================================== -->
+
+    <section id="journeyScene" class="scene">
+
+        <div class="content-card journey-card">
+
+            <span class="small-label">
+
+                OUR STORY
+
+            </span>
+
+            <h2>
+
+                Three Months With You ❤️
+
+            </h2>
+
+            <div class="card-line"></div>
+
+
+            <p>
+
+                Three months may sound like a short amount of
+                time, but with you, those months have already
+                given me so many memories that I will always
+                treasure.
+
+            </p>
+
+            <p>
+
+                We've laughed together, spent time together,
+                gone on little adventures, shared simple
+                moments, and continued learning more about
+                each other.
+
+            </p>
+
+            <p>
+
+                What I love most is that it doesn't have to be
+                something big or expensive to make me happy.
+                Sometimes, simply being beside you is already
+                enough.
+
+            </p>
+
+            <p>
+
+                Thank you for staying, understanding me,
+                supporting me, and continuing this journey with
+                me.
+
+            </p>
+
+            <p class="highlight-text">
+
+                Three months down.
+                Many more chapters to go. ❤️
+
+            </p>
+
+
+            <!-- COUNTDOWN -->
+
+            <div class="countdown-box">
+
+                <span>
+
+                    COUNTDOWN TO OUR NEXT MONTHSARY
+
+                </span>
+
+                <div id="monthsaryCountdown">
+
+                    Loading...
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="next-btn"
+                data-next="memoriesScene">
+
+                See Our Memories 📸
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SCENE 4 — MEMORIES + LOVE LETTER + ENDING
+    ====================================================== -->
+
+    <section id="memoriesScene" class="scene">
+
+        <div class="memories-wrapper">
+
+
+            <!-- TITLE -->
+
+            <span class="small-label">
+
+                OUR FAVORITE MOMENTS
+
+            </span>
+
+            <h2 class="scene-title">
+
+                Memories From Our Third Month 📸
+
+            </h2>
+
+
+            <!-- PHOTO GALLERY -->
+
+            <div class="gallery">
+
+                <div class="gallery-item">
+
+                    <img
+                        src="images/1.jpeg"
+                        alt="Our memory 1">
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img
+                        src="images/2.jpeg"
+                        alt="Our memory 2">
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img
+                        src="images/3.jpeg"
+                        alt="Our memory 3">
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img
+                        src="images/4.jpeg"
+                        alt="Our memory 4">
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img
+                        src="images/5.jpeg"
+                        alt="Our memory 5">
+
+                </div>
+
+                <div class="gallery-item">
+
+                    <img
+                        src="images/6.jpeg"
+                        alt="Our memory 6">
+
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO MEMORIES -->
+
+            <h3 class="video-title">
+
+                Our Little Moments 🎥
+
+            </h3>
+
+            <div class="video-grid">
+
+                <video controls preload="metadata">
+
+                    <source
+                        src="videos/1.mp4"
+                        type="video/mp4">
+
+                    Your browser does not support video.
+
+                </video>
+
+                <video controls preload="metadata">
+
+                    <source
+                        src="videos/2.mp4"
+                        type="video/mp4">
+
+                    Your browser does not support video.
+
+                </video>
+
+            </div>
+
+
+            <!-- LOVE LETTER -->
+
+            <div class="final-letter">
+
+                <span class="small-label">
+
+                    A LITTLE MESSAGE FOR YOU
+
+                </span>
+
+                <h2>
+
+                    Dear Mahal ❤️
+
+                </h2>
+
+                <p>
+
+                    Happy 3rd Monthsary.
+
+                    Thank you for being one of the most
+                    beautiful parts of my life.
+
+                </p>
+
+                <p>
+
+                    I may not always know the perfect words
+                    to say, but I hope you know how much
+                    I appreciate every moment we spend
+                    together.
+
+                </p>
+
+                <p>
+
+                    I want to keep making memories with you,
+                    keep growing with you, and keep choosing
+                    you through every chapter that comes next.
+
+                </p>
+
+                <p class="love-signature">
+
+                    I love you, Mahal. ❤️
+
+                    <br><br>
+
+                    — Alipot
+
+                </p>
+
+            </div>
+
+
+            <!-- ENDING -->
+
+            <div class="episode-ending">
+
+                <div class="ending-logo">
+
+                    N
+
+                </div>
+
+                <p>
+
+                    SEASON 1 • EPISODE 3
+
+                </p>
+
+                <h2>
+
+                    THREE MONTHS,
+                    <br>
+                    ONE LOVE
+
+                </h2>
+
+                <span>
+
+                    September 7, 2026
+
+                </span>
+
+                <div class="ending-line"></div>
+
+                <p class="to-be-continued">
+
+                    OUR STORY CONTINUES... ❤️
+
+                </p>
+
+                <button
+                    class="restart-btn"
+                    data-next="introScene">
+
+                    Watch Again ↻
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FULLSCREEN PHOTO VIEWER
+    ====================================================== -->
+
+    <div id="photoViewer" class="photo-viewer">
+
+        <button id="closeViewer" class="close-viewer">
+
+            
+
+        </button>
+
+        <img id="viewerImage" src="" alt="">
+
+    </div>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/main.js"></script>
+
+    <script src="js/timer.js"></script>
+
+    <script src="js/gallery.js"></script>
+
+    <script src="js/music.js"></script>
+
+    <script src="js/petals.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1029 @@
+/* =========================================================
+   SEASON 1 • EPISODE 3
+   RESPONSIVE CSS
+   Ashley ❤️ Jeanelle
+========================================================= */
+
+
+/* =========================================================
+   TABLETS
+   769px - 1100px
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    /* -----------------------------------------
+       GLOBAL
+    ----------------------------------------- */
+
+    .scene {
+        padding: 25px;
+    }
+
+
+    /* -----------------------------------------
+       HERO
+    ----------------------------------------- */
+
+    #heroScene {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .hero-content {
+        width: min(600px, 90%);
+    }
+
+
+    /* -----------------------------------------
+       GALLERY
+    ----------------------------------------- */
+
+    .gallery {
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        gap: 12px;
+
+        max-width: 750px;
+    }
+
+    .gallery-item {
+        height: 135px;
+    }
+
+
+    /* -----------------------------------------
+       VIDEOS
+    ----------------------------------------- */
+
+    .video-grid {
+        gap: 15px;
+    }
+
+    .video-grid video {
+        width: 320px;
+        height: 145px;
+    }
+
+
+    /* -----------------------------------------
+       LETTER
+    ----------------------------------------- */
+
+    .final-letter {
+        width: 90%;
+    }
+
+}
+
+
+
+/* =========================================================
+   MOBILE
+   768px AND BELOW
+========================================================= */
+
+@media (max-width: 768px) {
+
+    /* -----------------------------------------
+       GLOBAL
+    ----------------------------------------- */
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+
+        overflow: hidden;
+
+        position: fixed;
+    }
+
+
+    body {
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+
+
+    .scene {
+        width: 100%;
+        height: 100vh;
+        height: 100dvh;
+
+        padding:
+            20px
+            16px;
+
+        overflow: hidden;
+    }
+
+
+    /* -----------------------------------------
+       INTRO
+    ----------------------------------------- */
+
+    .intro-wrapper {
+        width: 100%;
+        padding: 15px;
+    }
+
+
+    .netflix-logo {
+        font-size: 85px;
+    }
+
+
+    .netflix-text {
+        font-size: 10px;
+
+        letter-spacing: 4px;
+    }
+
+
+    .presented {
+        font-size: 9px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .intro-wrapper h2 {
+        font-size: 19px;
+
+        line-height: 1.5;
+    }
+
+
+    .episode-label {
+        font-size: 9px;
+
+        letter-spacing: 2px;
+
+        margin-top: 18px;
+    }
+
+
+    .intro-title {
+        font-size: 39px;
+
+        line-height: 1.08;
+
+        margin:
+            15px
+            0
+            25px;
+
+        letter-spacing: 1px;
+    }
+
+
+    /* -----------------------------------------
+       BUTTONS
+    ----------------------------------------- */
+
+    .next-btn,
+    .restart-btn {
+        padding:
+            11px
+            22px;
+
+        font-size: 12px;
+
+        min-height: 42px;
+    }
+
+
+    /* -----------------------------------------
+       MUSIC BUTTON
+    ----------------------------------------- */
+
+    .music-button {
+        width: 42px;
+        height: 42px;
+
+        right: 15px;
+        bottom: 15px;
+
+        font-size: 16px;
+    }
+
+
+    /* -----------------------------------------
+       HERO
+    ----------------------------------------- */
+
+    #heroScene {
+        justify-content: center;
+
+        align-items: flex-end;
+
+        padding:
+            20px
+            20px
+            45px;
+
+        text-align: center;
+    }
+
+
+    .hero-bg {
+        object-position: center;
+    }
+
+
+    .hero-overlay {
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(5, 3, 8, 0.25),
+                rgba(5, 3, 8, 0.55) 40%,
+                rgba(5, 3, 8, 0.97) 88%
+            );
+    }
+
+
+    .hero-content {
+        width: 100%;
+        max-width: 500px;
+    }
+
+
+    .badge {
+        font-size: 8px;
+
+        padding:
+            6px
+            10px;
+
+        letter-spacing: 1.5px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .hero-content h1 {
+        font-size: 35px;
+
+        line-height: 1.05;
+
+        margin-bottom: 10px;
+    }
+
+
+    .hero-content h2 {
+        font-size: 20px;
+
+        margin-bottom: 5px;
+    }
+
+
+    .date {
+        font-size: 10px;
+
+        margin-bottom: 10px;
+    }
+
+
+    .hero-description {
+        font-size: 11px;
+
+        line-height: 1.55;
+
+        max-width: 360px;
+
+        margin:
+            0 auto
+            12px;
+    }
+
+
+    .mini-timer {
+        margin-bottom: 13px;
+    }
+
+
+    .mini-timer span {
+        font-size: 8px;
+
+        letter-spacing: 1.5px;
+    }
+
+
+    #relationshipTimer {
+        font-size: 15px;
+
+        line-height: 1.4;
+    }
+
+
+
+    /* -----------------------------------------
+       CONTENT CARD
+    ----------------------------------------- */
+
+    .content-card {
+        width: 100%;
+
+        max-width: 550px;
+
+        max-height: 92vh;
+
+        padding:
+            25px
+            20px;
+
+        border-radius: 20px;
+
+        overflow: hidden;
+    }
+
+
+    .small-label {
+        font-size: 8px;
+
+        letter-spacing: 2.5px;
+
+        margin-bottom: 7px;
+    }
+
+
+    .content-card h2 {
+        font-size: 25px;
+
+        line-height: 1.15;
+    }
+
+
+    .card-line {
+        margin-bottom: 15px;
+    }
+
+
+    .content-card > p {
+        font-size: 10.5px;
+
+        line-height: 1.55;
+
+        margin-bottom: 8px;
+    }
+
+
+    .highlight-text {
+        font-size: 11px !important;
+
+        margin-top: 10px !important;
+    }
+
+
+
+    /* -----------------------------------------
+       COUNTDOWN
+    ----------------------------------------- */
+
+    .countdown-box {
+        min-width: 0;
+
+        width: 90%;
+
+        padding:
+            10px
+            14px;
+
+        margin:
+            12px
+            auto;
+    }
+
+
+    .countdown-box span {
+        font-size: 7px;
+
+        letter-spacing: 1.3px;
+    }
+
+
+    #monthsaryCountdown {
+        font-size: 15px;
+    }
+
+
+
+    /* -----------------------------------------
+       MEMORIES SCENE
+    ----------------------------------------- */
+
+    #memoriesScene {
+        padding:
+            15px
+            12px;
+    }
+
+
+    .memories-wrapper {
+        width: 100%;
+
+        height: 100%;
+
+        justify-content:
+            flex-start;
+
+        padding-top: 5px;
+    }
+
+
+    .scene-title {
+        font-size: 23px;
+
+        line-height: 1.15;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    /* -----------------------------------------
+       PHOTO GALLERY
+    ----------------------------------------- */
+
+    .gallery {
+        width: 100%;
+
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        gap: 7px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .gallery-item {
+        width: 100%;
+
+        height: 105px;
+
+        border-radius: 10px;
+    }
+
+
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+
+    /* -----------------------------------------
+       VIDEO SECTION
+    ----------------------------------------- */
+
+    .video-title {
+        font-size: 14px;
+
+        margin-bottom: 7px;
+    }
+
+
+    .video-grid {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+        align-items: center;
+
+        gap: 8px;
+
+        margin-bottom: 10px;
+    }
+
+
+    .video-grid video {
+        width: calc(50% - 5px);
+
+        max-width: 190px;
+
+        height: 100px;
+
+        border-radius: 10px;
+    }
+
+
+
+    /* -----------------------------------------
+       LOVE LETTER
+    ----------------------------------------- */
+
+    .final-letter {
+        width: 100%;
+
+        padding:
+            12px
+            15px;
+
+        margin-top: 0;
+
+        border-radius: 13px;
+    }
+
+
+    .final-letter h2 {
+        font-size: 17px;
+
+        margin-bottom: 5px;
+    }
+
+
+    .final-letter p {
+        font-size: 8.5px;
+
+        line-height: 1.4;
+
+        margin-bottom: 4px;
+    }
+
+
+    .final-letter .love-signature {
+        margin-top: 6px;
+    }
+
+
+
+    /* -----------------------------------------
+       ENDING
+    ----------------------------------------- */
+
+    .episode-ending {
+        margin-top: 10px;
+    }
+
+
+    .ending-logo {
+        font-size: 32px;
+
+        margin-bottom: 3px;
+    }
+
+
+    .episode-ending > p:first-of-type {
+        font-size: 7px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .episode-ending h2 {
+        font-size: 19px;
+
+        line-height: 1.05;
+    }
+
+
+    .episode-ending > span {
+        font-size: 8px;
+    }
+
+
+    .ending-line {
+        width: 40px;
+
+        margin:
+            7px
+            auto;
+    }
+
+
+    .to-be-continued {
+        font-size: 8px;
+
+        letter-spacing: 1.5px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .restart-btn {
+        padding:
+            8px
+            16px;
+
+        min-height: 34px;
+
+        font-size: 9px;
+    }
+
+
+
+    /* -----------------------------------------
+       PHOTO VIEWER
+    ----------------------------------------- */
+
+    .photo-viewer {
+        padding: 15px;
+    }
+
+
+    .photo-viewer img {
+        max-width: 94vw;
+
+        max-height: 80vh;
+
+        border-radius: 12px;
+    }
+
+
+    .close-viewer {
+        top: 12px;
+
+        right: 12px;
+
+        width: 38px;
+
+        height: 38px;
+
+        font-size: 25px;
+    }
+
+}
+
+
+
+/* =========================================================
+   SMALL PHONES
+   480px AND BELOW
+========================================================= */
+
+@media (max-width: 480px) {
+
+    /* -----------------------------------------
+       INTRO
+    ----------------------------------------- */
+
+    .netflix-logo {
+        font-size: 70px;
+    }
+
+
+    .netflix-text {
+        font-size: 8px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .intro-wrapper h2 {
+        font-size: 16px;
+    }
+
+
+    .intro-title {
+        font-size: 31px;
+
+        margin:
+            12px
+            0
+            20px;
+    }
+
+
+    .episode-label {
+        font-size: 8px;
+    }
+
+
+
+    /* -----------------------------------------
+       HERO
+    ----------------------------------------- */
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+
+    .hero-content h2 {
+        font-size: 18px;
+    }
+
+
+    .hero-description {
+        font-size: 10px;
+
+        max-width: 330px;
+    }
+
+
+    #relationshipTimer {
+        font-size: 13px;
+    }
+
+
+
+    /* -----------------------------------------
+       STORY CARD
+    ----------------------------------------- */
+
+    .content-card {
+        padding:
+            20px
+            15px;
+    }
+
+
+    .content-card h2 {
+        font-size: 21px;
+    }
+
+
+    .content-card > p {
+        font-size: 9px;
+
+        line-height: 1.45;
+    }
+
+
+    .countdown-box {
+        width: 100%;
+
+        padding:
+            8px
+            10px;
+    }
+
+
+    #monthsaryCountdown {
+        font-size: 13px;
+    }
+
+
+
+    /* -----------------------------------------
+       GALLERY
+    ----------------------------------------- */
+
+    .scene-title {
+        font-size: 20px;
+    }
+
+
+    .gallery {
+        gap: 5px;
+    }
+
+
+    .gallery-item {
+        height: 82px;
+
+        border-radius: 8px;
+    }
+
+
+
+    /* -----------------------------------------
+       VIDEOS
+    ----------------------------------------- */
+
+    .video-grid {
+        gap: 6px;
+    }
+
+
+    .video-grid video {
+        width: calc(50% - 3px);
+
+        height: 78px;
+
+        border-radius: 8px;
+    }
+
+
+    .video-title {
+        font-size: 12px;
+    }
+
+
+
+    /* -----------------------------------------
+       LETTER
+    ----------------------------------------- */
+
+    .final-letter {
+        padding:
+            9px
+            11px;
+    }
+
+
+    .final-letter h2 {
+        font-size: 15px;
+    }
+
+
+    .final-letter p {
+        font-size: 7px;
+
+        line-height: 1.3;
+    }
+
+
+
+    /* -----------------------------------------
+       ENDING
+    ----------------------------------------- */
+
+    .ending-logo {
+        font-size: 26px;
+    }
+
+
+    .episode-ending h2 {
+        font-size: 16px;
+    }
+
+
+    .to-be-continued {
+        font-size: 7px;
+    }
+
+
+    .restart-btn {
+        font-size: 8px;
+
+        padding:
+            7px
+            13px;
+    }
+
+
+
+    /* -----------------------------------------
+       MUSIC
+    ----------------------------------------- */
+
+    .music-button {
+        width: 38px;
+
+        height: 38px;
+
+        right: 10px;
+
+        bottom: 10px;
+
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   360px AND BELOW
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .scene {
+        padding:
+            12px
+            10px;
+    }
+
+
+    .intro-title {
+        font-size: 27px;
+    }
+
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+
+    .hero-content h2 {
+        font-size: 16px;
+    }
+
+
+    .hero-description {
+        font-size: 9px;
+    }
+
+
+    .gallery-item {
+        height: 70px;
+    }
+
+
+    .video-grid video {
+        height: 65px;
+    }
+
+
+    .final-letter p {
+        font-size: 6.5px;
+    }
+
+}
+
+
+
+/* =========================================================
+   LANDSCAPE MOBILE
+========================================================= */
+
+@media (max-height: 600px) and (max-width: 900px) {
+
+    .scene {
+        padding:
+            10px
+            20px;
+    }
+
+
+    .intro-wrapper {
+        transform: scale(0.8);
+    }
+
+
+    #heroScene {
+        align-items: center;
+
+        padding:
+            15px
+            25px;
+    }
+
+
+    .hero-content {
+        transform: scale(0.85);
+    }
+
+
+    .content-card {
+        transform: scale(0.85);
+
+        max-height: 95vh;
+
+        padding:
+            20px
+            30px;
+    }
+
+
+    .memories-wrapper {
+        transform: scale(0.85);
+
+        transform-origin: center;
+    }
+
+
+    .gallery-item {
+        height: 90px;
+    }
+
+
+    .video-grid video {
+        height: 85px;
+    }
+
+}
+
+
+
+/* =========================================================
+   TOUCH DEVICES
+========================================================= */
+
+@media (hover: none) {
+
+    .gallery-item:hover {
+        transform: none;
+
+        box-shadow:
+            0 10px 25px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .gallery-item:hover img {
+        transform: none;
+    }
+
+
+    .next-btn:hover {
+        transform: none;
+    }
+
+
+    .music-button:hover {
+        transform: none;
+    }
+
+}
